@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description"
+    content="Deniz Restoran Çeşme - En taze deniz ürünleri ve meze çeşitleri ile QR menümüzü keşfedin.">
+  <meta name="theme-color" content="#FAF7F2" id="meta-theme-color">
+  <title>Deniz Restoran | Çeşme QR Menü</title>
+
+  <!-- SEO & Social Meta Tags -->
+  <meta property="og:title" content="Deniz Restoran Çeşme | QR Menü">
+  <meta property="og:description"
+    content="Ege esintileri eşliğinde en taze deniz mahsullerini ve seçkin lezzetlerimizi inceleyin.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/hero.png">
+
+  <!-- Premium Stylesheets & Fonts -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+  <!-- Floating Controls (Language & Theme Mode Switches) -->
+  <header class="floating-controls">
+    <!-- Language Toggle Button -->
+    <button id="lang-toggle" class="control-btn" aria-label="Toggle Language">
+      <svg viewBox="0 0 24 24">
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+      </svg>
+      <span id="lang-label">EN</span>
+    </button>
+
+    <!-- Day/Night Mode Toggle Button -->
+    <button id="theme-toggle" class="control-btn" aria-label="Toggle Theme Mode">
+      <svg viewBox="0 0 24 24">
+        <path
+          d="M12.3 22c5.07 0 9.27-3.79 9.93-8.83-4.82.78-9.42-2.92-9.42-7.83 0-1.12.22-2.22.67-3.23C7.4 2.82 3 7.89 3 14c0 4.42 3.58 8 8 8h1.3z" />
+      </svg>
+      <span id="theme-label">Mum Işığı</span>
+    </button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" style="background-image: url('assets/hero.png');">
+    <div class="hero-content">
+      <!-- Restaurant Logo -->
+      <img src="assets/logo.png" alt="Deniz Restoran Logo" class="restaurant-logo-img">
+      <!-- Greeting and Header -->
+      <span id="hero-greeting" class="hero-greeting">Çeşme'ye Hoş Geldiniz</span>
+      <h1 class="hero-title">Deniz Restoran</h1>
+      <p id="hero-subtitle" class="hero-subtitle">Ege'nin En Taze Esintileri ve Eşsiz Deniz Lezzetleri</p>
+      <span id="hero-hours" class="hero-hours"></span>
+    </div>
+  </section>
+
+  <!-- Sticky Category Navigation Bar -->
+  <div class="category-nav-wrapper">
+    <nav id="category-nav" class="category-nav" aria-label="Menu Categories">
+      <!-- Generated dynamically by script.js -->
+    </nav>
+  </div>
+
+  <!-- Main Menu Grid Container -->
+  <main id="menu-container" class="menu-container">
+    <!-- Rendered dynamically by script.js with fallback skeleton loading structure -->
+    <div class="section-header">
+      <h2 class="section-title">Lezzet Denizi Hazırlanıyor...</h2>
+    </div>
+    <div class="items-grid">
+      <div class="skeleton-card">
+        <div class="shimmer"></div>
+        <div class="skeleton-image"></div>
+        <div class="skeleton-text"></div>
+        <div class="skeleton-text short"></div>
+        <div class="skeleton-text paragraph"></div>
+      </div>
+      <div class="skeleton-card">
+        <div class="shimmer"></div>
+        <div class="skeleton-image"></div>
+        <div class="skeleton-text"></div>
+        <div class="skeleton-text short"></div>
+        <div class="skeleton-text paragraph"></div>
+      </div>
+      <div class="skeleton-card">
+        <div class="shimmer"></div>
+        <div class="skeleton-image"></div>
+        <div class="skeleton-text"></div>
+        <div class="skeleton-text short"></div>
+        <div class="skeleton-text paragraph"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Premium Footer -->
+  <footer class="premium-footer">
+    <div class="footer-content">
+      <h2 id="footer-title" class="footer-logo">Deniz Restoran</h2>
+      <p class="footer-subtitle">Fine Dining • Seafood</p>
+
+      <div class="footer-info">
+        <!-- Contact Address -->
+        <div id="footer-address" class="footer-info-item">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+          </svg>
+          Boyalık Mah. 3200. Sok. No: 12, Çeşme, İzmir
+        </div>
+        <!-- Contact Phone -->
+        <div id="footer-phone" class="footer-info-item">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+          </svg>
+          +90 (232) 712 00 00
+        </div>
+        <!-- Working Hours -->
+        <div id="footer-hours" class="footer-info-item">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <p class="footer-copyright">
+        &copy; 2026 Deniz Restoran. All Rights Reserved. Designed for Excellence.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Application Entry script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
