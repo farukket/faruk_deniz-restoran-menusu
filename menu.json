@@ -1,0 +1,347 @@
+{
+  "restaurantName": "Deniz Restoran",
+  "location": "Çeşme",
+  "currency": "₺",
+  "categories": [
+    {
+      "id": "mezes",
+      "name": {
+        "tr": "Ege Mezeleri & Başlangıçlar",
+        "en": "Aegean Mezes & Appetizers"
+      },
+      "image": "assets/mezes.png"
+    },
+    {
+      "id": "seafood",
+      "name": {
+        "tr": "Taze Balıklar & Ana Yemekler",
+        "en": "Fresh Catch & Main Course"
+      },
+      "image": "assets/seafood.png"
+    },
+    {
+      "id": "desserts",
+      "name": {
+        "tr": "Geleneksel Tatlılar",
+        "en": "Traditional Desserts"
+      },
+      "image": "assets/desserts.png"
+    },
+    {
+      "id": "drinks",
+      "name": {
+        "tr": "Ferahlatıcı İçecekler",
+        "en": "Refreshing Beverages"
+      },
+      "image": "assets/drinks.png"
+    }
+  ],
+  "items": [
+    {
+      "id": "item-1",
+      "categoryId": "mezes",
+      "name": {
+        "tr": "Ahtapot Karpaccio",
+        "en": "Octopus Carpaccio"
+      },
+      "description": {
+        "tr": "Sızma zeytinyağı, kapari, taze dağ kekiği ve pembe biber taneleri eşliğinde ince dilimlenmiş Ege ahtapotu.",
+        "en": "Thinly sliced Aegean octopus accompanied by extra virgin olive oil, capers, fresh wild oregano, and pink peppercorns."
+      },
+      "price": 480,
+      "tags": {
+        "tr": ["Şefin Seçimi", "Glütensiz", "Yerel Lezzet"],
+        "en": ["Chef's Choice", "Gluten-Free", "Local Catch"]
+      },
+      "image": "assets/mezes.png"
+    },
+    {
+      "id": "item-2",
+      "categoryId": "mezes",
+      "name": {
+        "tr": "Ege Otları Tabağı",
+        "en": "Aegean Wild Herbs Platter"
+      },
+      "description": {
+        "tr": "Çeşme dağlarından toplanmış şevketi bostan, radika, arapsaçı ve cibes; organik zeytinyağı ve taze limon sosu ile.",
+        "en": "Foraged wild chicory, dandelion, fennel greens, and cabbage shoots from Çeşme hills, dressed with organic olive oil and fresh lemon juice."
+      },
+      "price": 310,
+      "tags": {
+        "tr": ["Sağlıklı Seçim", "Vegan", "Glütensiz"],
+        "en": ["Healthy Choice", "Vegan", "Gluten-Free"]
+      },
+      "image": "assets/mezes.png"
+    },
+    {
+      "id": "item-3",
+      "categoryId": "mezes",
+      "name": {
+        "tr": "Kadayıfa Sarılı Çıtır Karides",
+        "en": "Crispy Kataifi Wrapped Shrimp"
+      },
+      "description": {
+        "tr": "Altın sarısı çıtır kadayıfa sarılı Ege karidesleri, özel tatlı-acı sos ve taze fesleğen ile.",
+        "en": "Golden crispy kataifi pastry wrapped around Aegean shrimp, served with house sweet-chili dipping sauce and fresh basil."
+      },
+      "price": 460,
+      "tags": {
+        "tr": ["Şefin Seçimi", "Popüler"],
+        "en": ["Chef's Choice", "Popular"]
+      },
+      "image": "assets/mezes.png"
+    },
+    {
+      "id": "item-4",
+      "categoryId": "mezes",
+      "name": {
+        "tr": "Köz Patlıcanlı Girit Ezmesi",
+        "en": "Smoked Eggplant Cretan Spread"
+      },
+      "description": {
+        "tr": "Közlenmiş patlıcan, Ezine peyniri, ceviz içi, taze nane ve sarımsaklı sızma zeytinyağı karışımı.",
+        "en": "Smoked eggplant mixed with premium Ezine feta cheese, walnuts, fresh mint, and garlic-infused cold-press olive oil."
+      },
+      "price": 290,
+      "tags": {
+        "tr": ["Vejetaryen", "Yerel Lezzet"],
+        "en": ["Vegetarian", "Local Heritage"]
+      },
+      "image": "assets/mezes.png"
+    },
+    {
+      "id": "item-5",
+      "categoryId": "seafood",
+      "name": {
+        "tr": "Izgara Çeşme Levreği",
+        "en": "Grilled Çeşme Sea Bass"
+      },
+      "description": {
+        "tr": "Günlük taze tutulmuş deniz levreği, körpe roka yaprakları, kırmızı soğan halkaları ve fırınlanmış bebek patates ile.",
+        "en": "Daily wild-caught sea bass grilled to perfection, served with wild rocket leaves, red onion rings, and roasted baby potatoes."
+      },
+      "price": 780,
+      "tags": {
+        "tr": ["Günlük Taze", "Glütensiz"],
+        "en": ["Daily Fresh", "Gluten-Free"]
+      },
+      "image": "assets/seafood.png"
+    },
+    {
+      "id": "item-6",
+      "categoryId": "seafood",
+      "name": {
+        "tr": "Asma Yaprağında Sardalya",
+        "en": "Sardines in Grape Leaves"
+      },
+      "description": {
+        "tr": "Taze asma yapraklarına sarılarak ızgara yapılmış Çeşme sardalyaları, nar ekşili sızma zeytinyağı sosu ile.",
+        "en": "Fresh local sardines wrapped in tender grape leaves and grilled, finished with olive oil and pomegranate molasses dressing."
+      },
+      "price": 540,
+      "tags": {
+        "tr": ["Geleneksel", "Yerel Lezzet"],
+        "en": ["Traditional", "Local Catch"]
+      },
+      "image": "assets/seafood.png"
+    },
+    {
+      "id": "item-7",
+      "categoryId": "seafood",
+      "name": {
+        "tr": "Tereyağlı Jumbo Karides",
+        "en": "Sautéed Jumbo Butter Shrimp"
+      },
+      "description": {
+        "tr": "Güveçte sarımsak, taze kırmızı acı biber, kiraz domatesler ve bol tereyağı eşliğinde pişirilmiş Ege jumbo karidesleri.",
+        "en": "Aegean jumbo prawns clay-pot sautéed in rich butter with garlic, fresh red chili, and sweet cherry tomatoes."
+      },
+      "price": 720,
+      "tags": {
+        "tr": ["Popüler", "Baharatlı"],
+        "en": ["Popular", "Spicy Accent"]
+      },
+      "image": "assets/seafood.png"
+    },
+    {
+      "id": "item-8",
+      "categoryId": "seafood",
+      "name": {
+        "tr": "Istakozlu Ev Yapımı Makarna",
+        "en": "Homemade Lobster Pasta"
+      },
+      "description": {
+        "tr": "Taze el yapımı linguine makarna, yarım Çeşme ıstakozu, kiraz domates sosu ve taze fesleğen yaprakları eşliğinde.",
+        "en": "Freshly rolled artisanal linguine pasta with half local lobster, rich cherry tomato reduction, and fresh garden basil."
+      },
+      "price": 1250,
+      "tags": {
+        "tr": ["Şefin Seçimi", "Lüks İkram"],
+        "en": ["Chef's Choice", "Luxury Premium"]
+      },
+      "image": "assets/seafood.png"
+    },
+    {
+      "id": "item-9",
+      "categoryId": "desserts",
+      "name": {
+        "tr": "Damla Sakızlı Fırın Sütlaç",
+        "en": "Mastic Rice Pudding"
+      },
+      "description": {
+        "tr": "Alaçatı'nın meşhur damla sakızı ile aroma verilmiş fırınlanmış sütlaç, kavrulmuş fındık parçacıkları ile.",
+        "en": "Oven-baked creamy rice pudding infused with authentic Alaçatı mastic resin, topped with roasted crushed hazelnuts."
+      },
+      "price": 240,
+      "tags": {
+        "tr": ["Yerel Lezzet", "Glütensiz"],
+        "en": ["Local Heritage", "Gluten-Free"]
+      },
+      "image": "assets/sutlac.png"
+    },
+    {
+      "id": "item-10",
+      "categoryId": "desserts",
+      "name": {
+        "tr": "Tahinli Çıtır Bal Kabağı",
+        "en": "Crispy Pumpkin with Tahini"
+      },
+      "description": {
+        "tr": "Antakya usulü kireçte bekletilerek çıtırlaştırılmış bal kabağı dilimleri, bol tahin ve Çeşme cevizi ile.",
+        "en": "Crisp pumpkin slices prepared in traditional limestone water, drizzled with rich tahini paste and walnuts."
+      },
+      "price": 260,
+      "tags": {
+        "tr": ["Geleneksel", "Vejetaryen"],
+        "en": ["Traditional", "Vegetarian"]
+      },
+      "image": "assets/kabak_tatlisi.png"
+    },
+    {
+      "id": "item-15",
+      "categoryId": "desserts",
+      "name": {
+        "tr": "Közde Hatay Künefesi",
+        "en": "Hatay Kunefe on Coals"
+      },
+      "description": {
+        "tr": "Közde ağır ağır pişirilmiş, şerbetli ve içi erimiş özel tuzsuz peynirli çıtır kadayıf; Antep fıstığı eşliğinde.",
+        "en": "Crispy shredded pastry slowly baked over hot coals, soaked in sweet syrup with melted unsalted cheese, topped with ground pistachios."
+      },
+      "price": 280,
+      "tags": {
+        "tr": ["Geleneksel", "Sıcak Servis", "Meşhur"],
+        "en": ["Traditional", "Served Hot", "Famous"]
+      },
+      "image": "assets/kunefe.png"
+    },
+    {
+      "id": "item-16",
+      "categoryId": "desserts",
+      "name": {
+        "tr": "Hakiki Maraş Dondurması",
+        "en": "Authentic Maras Ice Cream"
+      },
+      "description": {
+        "tr": "Keçi sütü ve salep ile hazırlanan geleneksel dövme Maraş dondurması, Antep fıstığı parçacıkları ile.",
+        "en": "Traditional churned goat's milk ice cream flavored with wild orchid root, served with crushed pistachios."
+      },
+      "price": 180,
+      "tags": {
+        "tr": ["Doğal", "Ferahlatıcı", "Klasik"],
+        "en": ["Natural", "Refreshing", "Classic"]
+      },
+      "image": "assets/dondurma.png"
+    },
+    {
+      "id": "item-17",
+      "categoryId": "desserts",
+      "name": {
+        "tr": "Fıstıklı Havuç Dilim Baklava",
+        "en": "Pistachio Carrot-Slice Baklava"
+      },
+      "description": {
+        "tr": "Bol Antep fıstıklı çıtır çıtır 40 kat ince yufka, yanında hakiki kaymak ile servis edilir.",
+        "en": "Crispy 40-layered fine pastry sheets loaded with premium local pistachios, served with authentic clotted cream."
+      },
+      "price": 320,
+      "tags": {
+        "tr": ["Popüler", "Lüks İkram"],
+        "en": ["Popular", "Premium Delight"]
+      },
+      "image": "assets/baklava.png"
+    },
+    {
+      "id": "item-11",
+      "categoryId": "drinks",
+      "name": {
+        "tr": "Acılı Adana Şalgamı",
+        "en": "Spicy Adana Shalgam"
+      },
+      "description": {
+        "tr": "Geleneksel yöntemlerle fermante edilmiş, buz gibi soğuk servis edilen acılı şalgam suyu.",
+        "en": "Traditionally fermented spicy turnip juice, served ice-cold."
+      },
+      "price": 85,
+      "tags": {
+        "tr": ["Klasik", "Doğal", "Alkolsüz"],
+        "en": ["Classic", "Natural", "Alcohol-Free"]
+      },
+      "image": "assets/drinks.png"
+    },
+    {
+      "id": "item-12",
+      "categoryId": "drinks",
+      "name": {
+        "tr": "Sarıyer Kola",
+        "en": "Sariyer Cola"
+      },
+      "description": {
+        "tr": "Nostaljik lezzetiyle yerli üretim serinletici gazlı kola keyfi.",
+        "en": "Locally produced refreshing sparkling cola with a nostalgic taste."
+      },
+      "price": 95,
+      "tags": {
+        "tr": ["Yerel Lezzet", "Popüler", "Alkolsüz"],
+        "en": ["Local Choice", "Popular", "Alcohol-Free"]
+      },
+      "image": "assets/drinks.png"
+    },
+    {
+      "id": "item-13",
+      "categoryId": "drinks",
+      "name": {
+        "tr": "Fanta Portakal",
+        "en": "Fanta Orange"
+      },
+      "description": {
+        "tr": "Yoğun portakal aromalı, buzlu ve ferahlatıcı gazlı içecek.",
+        "en": "Sparkling orange soda with intense fruit flavor, served iced and refreshing."
+      },
+      "price": 95,
+      "tags": {
+        "tr": ["Popüler", "Alkolsüz"],
+        "en": ["Popular", "Alcohol-Free"]
+      },
+      "image": "assets/drinks.png"
+    },
+    {
+      "id": "item-14",
+      "categoryId": "drinks",
+      "name": {
+        "tr": "Taze Reyhan Şerbeti",
+        "en": "Fresh Purple Basil Sherbet"
+      },
+      "description": {
+        "tr": "Taze toplanmış mor reyhan yaprakları, karanfil ve çubuk tarçın ile demlenmiş geleneksel ferahlatıcı alkolsüz içecek.",
+        "en": "A traditional, cooling non-alcoholic infusion of fresh purple basil leaves, cloves, and cinnamon sticks."
+      },
+      "price": 140,
+      "tags": {
+        "tr": ["Alkolsüz", "Ev Yapımı"],
+        "en": ["Alcohol-Free", "House Crafted"]
+      },
+      "image": "assets/drinks.png"
+    }
+  ]
+}
